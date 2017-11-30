@@ -9,9 +9,10 @@
   "author": "Sebastian 'hobbyquaker' Raff <hq@ccu.io>",
   "license": "MIT",
   "dependencies": {
-    "influx": "git://github.com/hobbyquaker/node-influx",
-    "mqtt": "^1.3.3",
-    "yargs": "^3.14.0"
+    "influx": "^5.0.7",
+    "mqtt": "^2.14.0",
+    "yalm": "^4.1.0",
+    "yargs": "^10.0.3"
   },
   "bin": {
     "influx4mqtt": "./index.js"
